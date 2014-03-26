@@ -9,7 +9,7 @@ client = Twitter::Streaming::Client.new do |config|
 end
 
 # get the array of arguments
-tweetArray = ARGV.join(",")
+tweetArray = ARGV.join(", ")
 
 # print out a lovely little search message
 puts "Starting a twitter stream for: #{tweetArray}"
